@@ -10,9 +10,11 @@ int main(){
 
         vector<int>v;
 
-        for(int i=n;i>=1;i--){
+        for(int i=2;i<=n-1;i++){
             v.push_back(i);
         }
+        v.push_back(n);
+        v.push_back(1);
 
         for(int i=0;i<n;i++){
             cout<<v[i]<<" ";
